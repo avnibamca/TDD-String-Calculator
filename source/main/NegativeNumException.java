@@ -7,7 +7,7 @@ public class NegativeNumException {
         }
     }
 
-    public static void throwExceptionIfNegativeExists(String negative_num) {
+    public static void throwExceptionIfNegativeExists(String negative_num_str) {
         if (negative_num_str != "") {
             throw new NegativesNotAllowed("Negatives Not Allowed. Numbers are: " + negative_num_str);
         }
