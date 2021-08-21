@@ -34,7 +34,7 @@ public class StringCalculator {
                 delimiter = ",";
             }
 
-            // Splitting numbers with delimiter, Pattern to avoid chaos of *
+            // Splitting numbers with delimiter
             split_numbers = numbers.split(Pattern.quote(delimiter));
         }
         else
